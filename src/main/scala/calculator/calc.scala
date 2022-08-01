@@ -1,6 +1,6 @@
-package Calculator
+package calculator
 
-class Calc {
+class calc {
   def sum(x: Int, y:Int): Int = x + y
 
   def sub(x: Int, y: Int): Int = x - y

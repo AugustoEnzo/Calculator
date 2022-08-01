@@ -1,9 +1,9 @@
-import Calculator.Choice
+import calculator.choice
 import scala.util.control.Breaks._
 
 object TestCalculator{
   def main(args: Array[String]): Unit = {
-    val calc = new Choice()
+    val calc = new choice()
     breakable {
     while (true) {
       println(
